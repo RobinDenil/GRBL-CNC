@@ -1,4 +1,6 @@
 # GRBL-CNC
+
+
 1.Yeni dizayn,rahat idarəetmə,köməkçi kitabça rus,ingilis,türk və azərbaycan dillərində.
 2.Sadə menyu,cnc stanoku istənilən koordinat oxu üzrə manual hərəkət etdirmə və eləcədə hərəkət sürəti dəyişdirmə.
 3.Artıq komyuterə ehtiyac yoxdur.Faylı sd karta at,SD card menyusuna daxil ol, faylı seç və işəsal.Çox rahat elədeyilmi.
@@ -29,3 +31,18 @@ Bizim proqram təminatı sizin işinizi rahatlaşdırmaq üçün düzəldilib v�
 11. Просто войдите в меню, выберите домашний режим и чпу станок  переместиться  в указанное место.( Домашний режим должен быть активирован в настройках GRBL. Для этого перейдите на страницу GRBL, где есть подробная информация.)
 
 Наше программное обеспечение предназначено для облегчения вашей работы и работает вместе с программой GRBL. Для получения дополнительной информации о программе GRBL посетите: https://github.com/gnea/grbl/wiki
+
+
+1. New design, convenient operation, instruction in Russian, English, Turkish and Azerbaijani.
+2. Simple menu, manual movement of the CNC machine on any coordinate axis, as well as changing the movement speed.
+3. No more need for a computer. We upload the file to the SD card, go to the SD card menu, select the file and run it. Is not very convenient.
+4. Connect Arduino to computer, open XLoader program, select UNO device (Atmega328), select COM port, select baud rate 115200, add erkcncv3.hex file and click upload button.
+5. Connect the SD card, LCD screen and four buttons according to the diagram. GRBL OFFLINE is now in your hands.
+6. Connect to the GRBL board and use it with ease. Isn't it very convenient.
+7. You can activate the laser mode at any time by simply entering the menu.
+8. You can activate CNC mode at any time by simply entering the menu.
+9. You can activate and deactivate stepper motors at any time by simply entering the menu.
+10. You can cancel the emergency mode at any time by simply entering the menu.
+11. Just enter the menu, select home mode, and the cnc machine will move to the specified location. (Home mode must be activated in the GRBL settings. To do this, go to the GRBL page, where there is detailed information.)
+
+Our software is designed to make your work easier and works together with the GRBL program. For more information about the GRBL program visit: https://github.com/gnea/grbl/wiki
